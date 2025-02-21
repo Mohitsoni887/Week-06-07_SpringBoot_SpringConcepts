@@ -15,7 +15,7 @@ public class HelloController {
 
     private final EmployeeBean employee;
 
-    // ✅ Fix: Constructor Name Should Match Class Name
+
     public HelloController(EmployeeBean employee) {
         this.employee = employee;
     }
