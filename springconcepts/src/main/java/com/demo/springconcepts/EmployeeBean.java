@@ -8,7 +8,6 @@ public class EmployeeBean {
     private String name = "Mohit Soni";
     private final DepartmentBean department;
 
-    // ✅ Fix: Constructor-Based Injection (Preferred over field injection)
     @Autowired
     public EmployeeBean(DepartmentBean department) {
         this.department = department;
